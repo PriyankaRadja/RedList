@@ -1,0 +1,91 @@
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+body {
+  font-family: "Lato" serif sans-serif monospace; 
+}
+img ~ p {
+  font-size: 10pt;
+}
+img {
+  width: 95px;
+  height: 85px;
+}
+p > b {
+  color: #fbeee4;
+}
+#firstmodule, #secondmodule, #thirdmodule, #fourthmodule, #fifthmodule{
+  width: 130px; 
+  height: 225px;
+  position: absolute;
+  float: right;
+  background-color: #d8737f;
+  box-shadow: 0px 8px 16px 0px #ab6c82;
+  padding: 12px 16px;
+  overflow: hidden;
+  opacity: 0;
+}
+#hovermodule {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  float: right;
+  background-color: #d8737f;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px #ab6c82;
+  padding: 12px 16px;
+  overflow: hidden;
+  opacity: 1;
+}
+
+#firstmodule {
+  left: 260px;
+}
+#secondmodule {
+  left: 430px;
+}
+
+#thirdmodule {
+  left: 600px;
+}
+
+#fourthmodule {
+  left: 770px;
+}
+
+#fifthmodule {
+  left: 940px;
+}
+
+#hovermodule:hover ~ #firstmodule { 
+  display: block;
+  animation: fade-in-right ease 0.3s forwards;
+}
+#hovermodule:hover ~ #secondmodule { 
+  display: block;
+  animation: fade-in-right ease 0.3s forwards;
+  animation-delay: 0.3s;
+}
+#hovermodule:hover ~ #thirdmodule { 
+  display: block;
+  animation: fade-in-right ease 0.3s forwards;
+  animation-delay: 0.6s;
+}
+#hovermodule:hover ~ #fourthmodule {
+  display: block;
+  animation: fade-in-right ease 0.3s forwards;
+  animation-delay: 0.9s;
+}
+#hovermodule:hover ~ #fifthmodule {
+  display: block;
+  animation: fade-in-right ease 0.3s forwards;
+  animation-delay: 1.2s;
+}

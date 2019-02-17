@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Red List Forests</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/redlist-style.css">
+  <script type="text/javascript" src="script/piechart.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <h3 id = "title"> Redlist - Top Endangered Species Around The World </h3>
+  </header>
+
+  <section>
+    <div class="container" id="section1">
+      <div class="col-md-6"> 
+          <object type="text/html" data="forests.html" id="map">
+          </object>
+       </div>
+       <div class="col-md-6">
+         kjqnfekjwevnrh
+       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container" id="section2">
+
+      <div class="col-md-3" id="myFirstChartDiv">
+        <canvas id="myFirstChart"></canvas>
+      </div>
+      <div class="col-md-3" id="mySecondChartDiv">
+        <canvas id="mySecondChart"></canvas>
+      </div>
+      <div class="col-md-3" id="myThirdChartDiv">
+        <canvas id="myThirdChart"></canvas>
+      </div>
+
+      <div class="col-md-3" id="pieChartsScale">
+          <svg width="300px" height="150px">
+            <g>
+              <rect x="0" y="30" class="scaleRect" id="scaleRect1"></rect>
+              <text x="60" y="45" class="scaleText">Other Species</text>
+
+              <rect x="0" y="60" class="scaleRect" id="scaleRect2"></rect>
+              <text x="60" y="75" class="scaleText">Endangered Species</text>
+
+              <rect x="0" y="90" class="scaleRect" id="scaleRect3"></rect>
+              <text x="60" y="105" class="scaleText">Critically Endangered Species</text>
+            </g>
+          </svg>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container" id="section3">
+        <object type="text/html" data="dropright.html" id="dropRight">
+        </object>
+    </div>  
+  </section>
+
+
+</body>
+</html>
