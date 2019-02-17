@@ -23,7 +23,18 @@
           </object>
        </div>
        <div class="col-md-6">
-         kjqnfekjwevnrh
+          <p>
+           The map given to the left was generated in R with with a marker for the top three eco regions which have the highest number of endangered and critically endangered species. These regions are called the red list regions. The R code can be found in code/forestmap.r. The data about the endangered species and the eco regions where obtained from the database found at <a href="https://www.worldwildlife.org/publications/wildfinder-database" target="_blank"> WorldWildLife.Org </a>. Simple SQL was performed to extract the details of the top 3 red list eco regions and the species. This extracted information can be found in the data directory. 
+         </p>
+         <p>
+           The R map displays the key information about the top three eco regions with highest red list species - eco region code, area, total number of species etc. The value of the Total Endangered Species field, displayed as popup text on the markers, is the combined value of the total number of endangered and critically endangered species.
+         </p>
+         <p>
+           The map output of the R code is embedded as an object to this html file. The three donut charts below were plotted using Chart.js. A donut chart is just a pie chart with some space in the middle, like a doughnut/donut. More details can be found in the javascript file (/script/piechart.js) that plots the donut charts.  
+         </p>
+         <p>
+            Finally, a hover module that displays the top red list species in the three eco regions, as an animation fading into the right, is shown at the bottom. This hover module is also embedded as an object to this html page. The css files accompanying this html main page and also the hover module can be found in the css directory. 
+         </p>
        </div>
     </div>
   </section>
