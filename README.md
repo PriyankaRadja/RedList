@@ -18,5 +18,5 @@ Simple CSS animation was used to display the top 5 endangered species in the Nor
 
 ![alt text](https://github.com/PriyankaRadja/RedList/blob/master/img/section3.png "Hover module before mouse over")
 
-![alt text](https://github.com/PriyankaRadja/RedList/blob/master/img/section3-1.png "Hover module on mpuse over showing simple css animations")
+![alt text](https://github.com/PriyankaRadja/RedList/blob/master/img/section3-1.png "Hover module on mouse over showing simple css animations")
 
