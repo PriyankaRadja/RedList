@@ -1,5 +1,5 @@
 # RedList
-Data analysis project on the top 3 eco-regions with the highest number of endangered and critically endangered species (redlist species) using R, Javascript, Html and Css.
+Data analysis project on the top 3 eco-regions with the highest number of endangered and critically endangered species (redlist species) using R, Javascript, Html and Css. Open redlist.html to view the project in its entirety.
 
 ## Map using R
 The map was generated using R. The respective code can be found at code/forestmap.r. Pop-up texts display details of the 3 eco-regions with the highest redlist species. The map was embedded into the html page using the <object> element.
